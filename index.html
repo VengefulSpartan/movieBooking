@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section id="pick">
+       <label for="movie">Select your movie:</label> 
+       <select name="movie" id="mov">
+        <option value="0" selected>--select a movie--</option>
+        <option value="150">Lord Of The Rings The fellowship of the ring <span class="price">$150</span></option>
+        <option value="200">A Silent Voice  <span class="price">$200</span></option>
+        <option value="256">I want to eat your pancreas <span class="price">$256</span></option>
+        <option value="500">Your Name <span class="price">$500</span></option>
+       </select>
+       <!--<img src="./LOR poster.jpeg" alt="movie poster" height="50px">
+        
+        <img src="./pancreas.jpg" alt="movie poster" height="50px">
+        <img src="./name.jpeg" alt="movie poster" height="50px">
+    -->
+    </section>
+    <section id="info">
+        <div class="inf">
+            <div class="icon dark"></div><h3 class="gap">N/A</h3>
+            <div class="icon blue"></div><h3 class="gap">Selected</h3>
+            <div class="icon white"></div><h3>Occupied</h3>
+        </div>
+    </section>
+    <section id="screen"><div class="screen"></div></section>
+    <section id="seats">
+        <div class="icon "></div>
+        <div class="icon white gap"></div>
+        <div class="icon white"></div>
+        <div class="icon "></div>
+        <div class="icon "></div>
+        <div class="icon "></div>
+        <div class="icon gap"></div>
+        <div class="icon white"></div>
+        <br>
+        <div class="icon "></div>
+        <div class="icon gap"></div>
+        <div class="icon white"></div>
+        <div class="icon "></div>
+        <div class="icon "></div>
+        <div class="icon "></div>
+        <div class="icon gap white"></div>
+        <div class="icon "></div>
+        <br>
+        <div class="icon "></div>
+        <div class="icon gap white"></div>
+        <div class="icon "></div>
+        <div class="icon white"></div>
+        <div class="icon white"></div>
+        <div class="icon "></div>
+        <div class="icon gap"></div>
+        <div class="icon "></div>
+        <br>
+        <div class="icon "></div>
+        <div class="icon gap"></div>
+        <div class="icon "></div>
+        <div class="icon "></div>
+        <div class="icon white"></div>
+        <div class="icon "></div>
+        <div class="icon gap"></div>
+        <div class="icon "></div>
+        <br>
+        <div class="icon "></div>
+        <div class="icon gap white"></div>
+        <div class="icon "></div>
+        <div class="icon "></div>
+        <div class="icon "></div>
+        <div class="icon "></div>
+        <div class="icon white gap"></div>
+        <div class="icon "></div>
+        <br>
+        <div class="icon "></div>
+        <div class="icon gap"></div>
+        <div class="icon "></div>
+        <div class="icon "></div>
+        <div class="icon "></div>
+        <div class="icon "></div>
+        <div class="icon gap"></div>
+        <div class="icon "></div>
+        
+        
+    </section>
+   <section class="total"><h2>You have selected <strong><span class="seats col">0</span></strong> for a price of $ <strong><span class="money col">0</span></strong>.</h2></section>
+   <button class="confirm" onclick="confirmation()">Confirm Your Seats</button> 
+   <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>
